@@ -29,6 +29,7 @@ rem -> This function will take two inputs. The first input will be the dividend 
 The main difference between rem and mod, is noted when the divisor is a negative number. You will receive different outputs because the mod function is based off of a premise (x `div` y)*y + (x `mod` y) == x. The div function is truncated toward negative infinity. As opposed to the rem function, which is based off of the premise (x `quot` y)*y + (x `rem` y) == x. The quot function is truncated toward zero.  
 
 Example Output: 
+![image](https://user-images.githubusercontent.com/43471820/52254348-5c1f1300-28db-11e9-8244-2d8ac7235823.png)
  
 
 div -> The div function also takes two inputs and can be used as an infix function. Its first input would be the dividend, while the second input would be the divisor. This function only takes inputs and provides outputs of integers. The output of the function would be the mathematical quotient of the two compared inputs. The div function is truncated toward negative infinity. This means that if the actual mathematical quotient would be a decimal in between negative integers, the result would be rounded to an integer closer to negative infinity.
