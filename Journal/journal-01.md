@@ -21,6 +21,8 @@ I will be using 4 different named arithmetic operators, 5 times each and recordi
 <strong>mod or `mod`</strong> -> Mod can be put before its inputs. The first input following mod would be the dividend, and the second input would be the divisor. This function only takes inputs and provides outputs of integers. Mod can also be used as an infix operator. This means it can be put in the middle of its inputs similar to a “+” operator or a “-“ operator. To do this the operator must be encased in backquotes. 
 
 <br>Example:</br>
+![ghci example 8](https://user-images.githubusercontent.com/43471820/52317037-41f13d80-298c-11e9-8c02-f9537243c9f1.PNG)
+
 
 
   The output of this operator is the mathematical remainder of the two integers being compared. So the output of this example would be 0 because 5 divided by 1 would be 5 with a remainder of 0.
