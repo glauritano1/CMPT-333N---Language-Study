@@ -66,7 +66,7 @@ Example:</br>
 Therefore, using the map function in conjunction with the null function means we must provide an input of a list of lists of any type. Otherwise, this will cause an error. When we provide a valid input of a list of lists, the mapping of the null function, applies the null function to all lists within the list of lists, and returns a list of Boolean values. Each Boolean values position in the output list correlates to the position of the list being compared, within the inputted list of lists.
 
 Examples:</br>
-![ghci example 6](https://user-images.githubusercontent.com/43471820/52316536-c8f0e680-2989-11e9-9347-5f4f2c2ab359.png)
+![ghci example 6](https://user-images.githubusercontent.com/43471820/52316536-c8f0e680-2989-11e9-9347-5f4f2c2ab359.png)</br>
 ![ghci example 7](https://user-images.githubusercontent.com/43471820/52316544-d27a4e80-2989-11e9-8877-fd4998ce7048.png)
 
 <h2>Arithmetic Expressions</h2>
