@@ -76,12 +76,12 @@ Examples:
 
   Supposing that f is a function such that f x = x * x – 1, I will give what I think is the solution to the following questions, without entering the into the GHCi first.
 
-<strong>f(2) + 1: </strong> 4 
-<strong>f (3 + 2): </strong> 24 
-<strong>f 1 + 5: </strong> 5 
-<strong>f 0 + f 2: </strong> 2 
-<strong>5 - f 2: </strong> 2
-<strong>f f 1: </strong> -1 
+**f(2) + 1:** 4 
+**f (3 + 2):** 24 
+**f 1 + 5:** 5 
+**f 0 + f 2:** 2 
+**5 - f 2:** 2
+**f f 1:** -1 
 
   The key to solving these questions lies with knowing the highest order of binding in Haskell as well as the order of operations within the function itself. 
 
