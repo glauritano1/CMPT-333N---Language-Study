@@ -1,20 +1,20 @@
 Gary Lauritano – Journal Entry 01
 
-<h1>**Arithmetic Operations**</h1>
+<h1>Arithmetic Operations</h1>
 
 I will be using 5 different operators, 5 times each and recording any notable observations.
 
-"+" -> I used this operators 5 times and each time the result shown by the GHCi was the mathematical sum of the two numbers being compared by it. 
+**+** -> I used this operators 5 times and each time the result shown by the GHCi was the mathematical sum of the two numbers being compared by it. 
 
-- -> Using this operator 5 times in the same manner that I used the plus operator yeilds the mathematical difference of the two numbers being compared by it. Something to note, is that spacing does not matter when using this operator. As long as there is a number entered, and the next entry besides white space is the operator followed by an entry of another number it will execute.
+**-** -> Using this operator 5 times in the same manner that I used the plus operator yeilds the mathematical difference of the two numbers being compared by it. Something to note, is that spacing does not matter when using this operator. As long as there is a number entered, and the next entry besides white space is the operator followed by an entry of another number it will execute.
 
-* -> This operator with compute the mathematical sum of the numbers entered of each side of it. 
+***** -> This operator with compute the mathematical sum of the numbers entered of each side of it. 
 
-/ -> This operator compares two integers and will compute the difference of these integers. Something to note about the result of this operation is that it is automatically converted into a floating point number. Even if the result would be a perfect integer it is converted to a floating point number. Also, when dividing by a negative number, you must enclose the negative number in parenthesis. 
+**/** -> This operator compares two integers and will compute the difference of these integers. Something to note about the result of this operation is that it is automatically converted into a floating point number. Even if the result would be a perfect integer it is converted to a floating point number. Also, when dividing by a negative number, you must enclose the negative number in parenthesis. 
 
-++ -> This operator is appends. It will take a list of any data type and append it to another list of the SAME data type. They also must be lists. They cannot be singular data types like a character and another character. Also, any white spaces are considered characters, so they are left within the lists.
+**++** -> This operator is appends. It will take a list of any data type and append it to another list of the SAME data type. They also must be lists. They cannot be singular data types like a character and another character. Also, any white spaces are considered characters, so they are left within the lists.
 
-**Named Arithmetic Functions**
+<h1>Named Arithmetic Functions</h1>
 
   I will be using 4 different named arithmetic operators, 5 times each and recording any notable observations.
 
