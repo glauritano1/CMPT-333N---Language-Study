@@ -94,6 +94,6 @@ Examples:</br>
 
 <strong>[1,2,3] to [0,1,2]</strong> -> For this problem I used the map function in conjunction with the function (subtract 1). The function (subtract 1) takes the input of a number and subtracts 1 from that value. Using the map function allowed me to apply the function (subtract 1) to a list of numbers. This achieved the desired output. 
 
-<strong>["Olorin","Curumo","Aiwendil"] to [6,6,8]</strong> -> 
+<strong>["Olorin","Curumo","Aiwendil"] to [6,6,8]</strong> -> For this problem I used the map function in conjuntioin with the length function. The length function takes an input of a list and returns an integer of how many items are in the list. Since, a string is considered a list of characters in Haskell, the length function would output the number of characters in a single string. Using the map function applys the length function to all strings in the list of strings. Therefore, map length ["Olorin","Curumo","Aiwendil"] returned [6,6,8]. 
 
 <strong>[0,1,1,2,3,5,8] to [True,False,False,True,False,False,True]</strong> -> For this problem I used the map function in conjunction with the even function. The even function takes the input of a number and outputs a Boolean value of True if that number is even and False if the number is not even. Using the map function allowed me to apply the even function to a list of numbers giving me the desired output.
