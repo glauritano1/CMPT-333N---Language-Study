@@ -1,10 +1,10 @@
 Gary Lauritano – Journal Entry 01
 
-**Arithmetic Operations**
+<h1>**Arithmetic Operations**</h1>
 
 I will be using 5 different operators, 5 times each and recording any notable observations.
 
-+ -> I used this operators 5 times and each time the result shown by the GHCi was the mathematical sum of the two numbers being compared by it. 
+"+" -> I used this operators 5 times and each time the result shown by the GHCi was the mathematical sum of the two numbers being compared by it. 
 
 - -> Using this operator 5 times in the same manner that I used the plus operator yeilds the mathematical difference of the two numbers being compared by it. Something to note, is that spacing does not matter when using this operator. As long as there is a number entered, and the next entry besides white space is the operator followed by an entry of another number it will execute.
 
