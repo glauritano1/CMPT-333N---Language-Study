@@ -37,9 +37,8 @@ Example Output:</br>
 <strong>quot</strong> -> The quot function takes two inputs and can be used as an infix function. Its first input would be the dividend, while the second input would be the divisor. This function only takes inputs and provides outputs of integers. The output of the function would be the mathematical quotient of the two compared inputs. The quot function is truncated toward zero. This means that if the actual mathematical quotient would be a decimal in between negative integers, the result would be rounded to an integer closer to negative infinity.
 
 Difference Between div and quot Functions Example:</br> 
-<br>5 divided by (-3) equals -1.6666666666666666666666666666667</br>
+5 divided by (-3) equals -1.6666666666666666666666666666667<br></br>
 ![ghci example 2](https://user-images.githubusercontent.com/43471820/52316499-9b0ba200-2989-11e9-8c79-cc5d47f6813d.png)
- 
  
  <h2>Mapping</h2>
 
@@ -67,7 +66,7 @@ Example:</br>
 Therefore, using the map function in conjunction with the null function means we must provide an input of a list of lists of any type. Otherwise, this will cause an error. When we provide a valid input of a list of lists, the mapping of the null function, applies the null function to all lists within the list of lists, and returns a list of Boolean values. Each Boolean values position in the output list correlates to the position of the list being compared, within the inputted list of lists.
 
 Examples:</br>
-![ghci example 6](https://user-images.githubusercontent.com/43471820/52316536-c8f0e680-2989-11e9-9347-5f4f2c2ab359.png)<br></br>
+![ghci example 6](https://user-images.githubusercontent.com/43471820/52316536-c8f0e680-2989-11e9-9347-5f4f2c2ab359.png)
 ![ghci example 7](https://user-images.githubusercontent.com/43471820/52316544-d27a4e80-2989-11e9-8877-fd4998ce7048.png)
 
 <h2>Arithmetic Expressions</h2>
