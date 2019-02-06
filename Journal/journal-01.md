@@ -1,4 +1,6 @@
-Gary Lauritano – Journal Entry 01
+Gary Lauritano
+
+<h1>Journal Entry 01</h1>
 
 <h2>Arithmetic Operations</h2>
 
