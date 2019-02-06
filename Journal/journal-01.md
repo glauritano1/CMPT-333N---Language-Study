@@ -40,8 +40,8 @@ Example Output:
 Difference Between div and quot Functions Example: 
 5 divided by (-3) equals -1.6666666666666666666666666666667
  
-
-							                                     **Mapping**
+ 
+ <h3>Mapping</h3>
 
   Mapping allows a function that would be applied to only one element of a list, to be applied to every element in that list. It is a general purpose function, and can be applied in accordance with many other function. 
 
@@ -72,7 +72,7 @@ Examples:
 
 
 
-**Arithmetic Expressions**
+<h4>Arithmetic Expressions</h4>
 
   Supposing that f is a function such that f x = x * x – 1, I will give what I think is the solution to the following questions, without entering the into the GHCi first.
 
@@ -85,7 +85,7 @@ Examples:
 
   The key to solving these questions lies with knowing the highest order of binding in Haskell as well as the order of operations within the function itself. 
 
-**Mapping**
+<h5>Mapping</h5>
 
 <strong>[1,2,3,4] to [-1,-2,-3,-4]</strong> -> For this problem I used map function in conjunction with negate and supplied the input list. Negate takes an input of a number and makes that number a negative. Using map with this function applied the negate function to every element of this list.
 
