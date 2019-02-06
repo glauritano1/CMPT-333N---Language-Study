@@ -18,15 +18,12 @@ I will be using 5 different operators, 5 times each and recording any notable ob
 
 I will be using 4 different named arithmetic operators, 5 times each and recording any notable observations.
 
-<strong>mod or `mod`</strong> -> Mod can be put before its inputs. The first input following mod would be the dividend, and the second input would be the divisor. This function only takes inputs and provides outputs of integers. Mod can also be used as an infix operator. This means it can be put in the middle of its inputs similar to a “+” operator or a “-“ operator. To do this the operator must be encased in backquotes. 
+<strong>mod</strong> -> Mod can be put before its inputs. The first input following mod would be the dividend, and the second input would be the divisor. This function only takes inputs and provides outputs of integers. Mod can also be used as an infix operator. This means it can be put in the middle of its inputs similar to a “+” operator or a “-“ operator. To do this the operator must be encased in backquotes. 
 
 Example:<br></br>
 ![ghci example 8](https://user-images.githubusercontent.com/43471820/52317037-41f13d80-298c-11e9-8c02-f9537243c9f1.PNG)
 
-
-
-  The output of this operator is the mathematical remainder of the two integers being compared. So the output of this example would be 0 because 5 divided by 1 would be 5 with a remainder of 0.
-
+The output of this operator is the mathematical remainder of the two integers being compared. So the output of this example would be 0 because 5 divided by 1 would be 5 with a remainder of 0.
 
 <strong>rem</strong> -> This function will take two inputs. The first input will be the dividend and the second input will be the divisor. The output of this function will be the mathematical remainder after the comparison of the two inputs is made. This function only takes inputs and provides outputs of integers. This is similar to the mod named arithmetic function. It can also be an infixed function, or put in the middle of its inputs encased in backquotes.
 
@@ -35,20 +32,19 @@ The main difference between rem and mod, is noted when the divisor is a negative
 Example Output:<br></br>
 ![ghci example 1](https://user-images.githubusercontent.com/43471820/52316482-83ccb480-2989-11e9-9422-9af9ad582e55.png)
  
-
-<strong>div</strong> -> The div function also takes two inputs and can be used as an infix function. Its first input would be the dividend, while the second input would be the divisor. This function only takes inputs and provides outputs of integers. The output of the function would be the mathematical quotient of the two compared inputs. The div function is truncated toward negative infinity. This means that if the actual mathematical quotient would be a decimal in between negative integers, the result would be rounded to an integer closer to negative infinity.
-
+ <strong>div</strong> -> The div function also takes two inputs and can be used as an infix function. Its first input would be the dividend, while the second input would be the divisor. This function only takes inputs and provides outputs of integers. The output of the function would be the mathematical quotient of the two compared inputs. The div function is truncated toward negative infinity. This means that if the actual mathematical quotient would be a decimal in between negative integers, the result would be rounded to an integer closer to negative infinity.
 
 <strong>quot</strong> -> The quot function takes two inputs and can be used as an infix function. Its first input would be the dividend, while the second input would be the divisor. This function only takes inputs and provides outputs of integers. The output of the function would be the mathematical quotient of the two compared inputs. The quot function is truncated toward zero. This means that if the actual mathematical quotient would be a decimal in between negative integers, the result would be rounded to an integer closer to negative infinity.
 
 Difference Between div and quot Functions Example: 
+
 <br>5 divided by (-3) equals -1.6666666666666666666666666666667</br>
 ![ghci example 2](https://user-images.githubusercontent.com/43471820/52316499-9b0ba200-2989-11e9-8c79-cc5d47f6813d.png)
  
  
  <h2>Mapping</h2>
 
-  Mapping allows a function that would be applied to only one element of a list, to be applied to every element in that list. It is a general purpose function, and can be applied in accordance with many other function. 
+Mapping allows a function that would be applied to only one element of a list, to be applied to every element in that list. It is a general purpose function, and can be applied in accordance with many other function. 
 
 <strong>map (*2)</strong> -> This function multiplies the elements of a list by two, or doubles all elements of a list as long as they are of the number type class.
  
@@ -64,22 +60,20 @@ Example:<br></br>
 Example:<br></br>
 ![ghci example 4](https://user-images.githubusercontent.com/43471820/52316519-b080cc00-2989-11e9-9327-79134c090ef6.png)
 
-  If you do not supply it with a list of items, and supply it will a singular item it will cause an error. 
+If you do not supply it with a list of items, and supply it will a singular item it will cause an error. 
 
 Example:<br></br> 
 ![ghci example 5](https://user-images.githubusercontent.com/43471820/52316528-baa2ca80-2989-11e9-890d-e1945700f46c.png)
 
-  Therefore, using the map function in conjunction with the null function means we must provide an input of a list of lists of any type. Otherwise, this will cause an error. When we provide a valid input of a list of lists, the mapping of the null function, applies the null function to all lists within the list of lists, and returns a list of Boolean values. Each Boolean values position in the output list correlates to the position of the list being compared, within the inputted list of lists.
+Therefore, using the map function in conjunction with the null function means we must provide an input of a list of lists of any type. Otherwise, this will cause an error. When we provide a valid input of a list of lists, the mapping of the null function, applies the null function to all lists within the list of lists, and returns a list of Boolean values. Each Boolean values position in the output list correlates to the position of the list being compared, within the inputted list of lists.
 
-Examples<br>:</br>
+Examples:<br></br>
 ![ghci example 6](https://user-images.githubusercontent.com/43471820/52316536-c8f0e680-2989-11e9-9347-5f4f2c2ab359.png)<br></br>
 ![ghci example 7](https://user-images.githubusercontent.com/43471820/52316544-d27a4e80-2989-11e9-8877-fd4998ce7048.png)
 
-
-
 <h2>Arithmetic Expressions</h2>
 
-  Supposing that f is a function such that f x = x * x – 1, I will give what I think is the solution to the following questions, without entering the into the GHCi first.
+Supposing that f is a function such that f x = x * x – 1, I will give what I think is the solution to the following questions, without entering the into the GHCi first.
 
 <br>**f(2) + 1:** 4</br> 
 <br>**f (3 + 2):** 24</br>
@@ -88,7 +82,7 @@ Examples<br>:</br>
 <br>**5 - f 2:** 2</br>
 <br>**f f 1:** -1</br>
 
-  The key to solving these questions lies with knowing the highest order of binding in Haskell as well as the order of operations within the function itself. 
+The key to solving these questions lies with knowing the highest order of binding in Haskell as well as the order of operations within the function itself. 
 
 <h2>Mapping</h2>
 
