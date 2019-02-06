@@ -1,6 +1,6 @@
 Gary Lauritano – Journal Entry 01
 
-<h1>Arithmetic Operations</h1>
+<h2>Arithmetic Operations</h2>
 
 I will be using 5 different operators, 5 times each and recording any notable observations.
 
@@ -14,7 +14,7 @@ I will be using 5 different operators, 5 times each and recording any notable ob
 
 <strong>++</strong> -> This operator is appends. It will take a list of any data type and append it to another list of the SAME data type. They also must be lists. They cannot be singular data types like a character and another character. Also, any white spaces are considered characters, so they are left within the lists.
 
-<h1>Named Arithmetic Functions</h1>
+<h2>Named Arithmetic Functions</h2>
 
 I will be using 4 different named arithmetic operators, 5 times each and recording any notable observations.
 
@@ -41,7 +41,7 @@ Difference Between div and quot Functions Example:
 5 divided by (-3) equals -1.6666666666666666666666666666667
  
  
- <h3>Mapping</h3>
+ <h2>Mapping</h2>
 
   Mapping allows a function that would be applied to only one element of a list, to be applied to every element in that list. It is a general purpose function, and can be applied in accordance with many other function. 
 
@@ -72,7 +72,7 @@ Examples:
 
 
 
-<h4>Arithmetic Expressions</h4>
+<h2>Arithmetic Expressions</h2>
 
   Supposing that f is a function such that f x = x * x – 1, I will give what I think is the solution to the following questions, without entering the into the GHCi first.
 
@@ -85,7 +85,7 @@ Examples:
 
   The key to solving these questions lies with knowing the highest order of binding in Haskell as well as the order of operations within the function itself. 
 
-<h5>Mapping</h5>
+<h2>Mapping</h2>
 
 <strong>[1,2,3,4] to [-1,-2,-3,-4]</strong> -> For this problem I used map function in conjunction with negate and supplied the input list. Negate takes an input of a number and makes that number a negative. Using map with this function applied the negate function to every element of this list.
 
