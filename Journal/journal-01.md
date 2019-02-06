@@ -1,8 +1,8 @@
-Gary Lauritano – Journal Entry 01 
+Gary Lauritano – Journal Entry 01
 
-						                            **Arithmetic Operations**
+**Arithmetic Operations**
 
-	I will be using 5 different operators, 5 times each and recording any notable observations.
+I will be using 5 different operators, 5 times each and recording any notable observations.
 
 + -> I used this operators 5 times and each time the result shown by the GHCi was the mathematical sum of the two numbers being compared by it. 
 
@@ -14,7 +14,7 @@ Gary Lauritano – Journal Entry 01
 
 ++ -> This operator is appends. It will take a list of any data type and append it to another list of the SAME data type. They also must be lists. They cannot be singular data types like a character and another character. Also, any white spaces are considered characters, so they are left within the lists.
 
-						                            **Named Arithmetic Functions**
+**Named Arithmetic Functions**
 
   I will be using 4 different named arithmetic operators, 5 times each and recording any notable observations.
 
@@ -72,7 +72,7 @@ Examples:
 
 
 
-						**Arithmetic Expressions**
+**Arithmetic Expressions**
 
   Supposing that f is a function such that f x = x * x – 1, I will give what I think is the solution to the following questions, without entering the into the GHCi first.
 
@@ -85,7 +85,7 @@ f f 1 : -1
 
   The key to solving these questions lies with knowing the highest order of binding in Haskell as well as the order of operations within the function itself. 
 
-						    	**Mapping**
+**Mapping**
 
 [1,2,3,4] to [-1,-2,-3,-4] -> For this problem I used map function in conjunction with negate and supplied the input list. Negate takes an input of a number and makes that number a negative. Using map with this function applied the negate function to every element of this list.
 
