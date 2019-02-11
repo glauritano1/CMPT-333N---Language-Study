@@ -9,7 +9,7 @@ In this problem, Jon Marius is trying to determine which doctor he should go to.
 
 <h3>Input</h3> 
 
-For this problem you are given two lines of input. The first line is how long Jon can say "aah" that day. The second line is the length of the "aah" that the doctor would like to hear. 
+For this problem you are given two lines of input. The first line is how long Jon can say "aah" that day. The second line is the length of the "aah" that the doctor would like to hear. The input that is given will be strictly lowercase letters. There will be a variable amount of lowercase a's between 0 and 999 followed by a single h. 
 
 <h3>Output</h3>
 
@@ -25,7 +25,7 @@ So, to do this, we use the lines function. The lines function takes a String, an
 
 In total our parseInput function takes an parameter of any type and converts it into a list of Strings. 
 
-<h4>Doing the Work</4>
+<h4>Doing the Work<h/4>
 
 The work portion of this solution, involves making a comparison between the two lines of input. We need to compare the length of Jon's "aah" to the length of the candidate doctor's "aah", to see if Jon would be able to go to that doctor. Since our input has been converted into a list of Strings, that consist of the two now seperate lines of input, we can compare them. First, we must take the first item of the list to isolate the first line of input. Luckily, their is already a Haskell function, that was taught to us by Professor Johnson, that does just that. This is the head function. The head function take a parameter of any type of list and returns the first element or item in that list.
 
