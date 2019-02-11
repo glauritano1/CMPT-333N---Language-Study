@@ -25,7 +25,7 @@ So, to do this, we use the lines function. The lines function takes a String, an
 
 In total our parseInput function takes an parameter of any type and converts it into a list of Strings. 
 
-<h4>Doing the Work<h/4>
+<h4>Doing the Work</h4>
 
 The work portion of this solution, involves making a comparison between the two lines of input. We need to compare the length of Jon's "aah" to the length of the candidate doctor's "aah", to see if Jon would be able to go to that doctor. Since our input has been converted into a list of Strings, that consist of the two now seperate lines of input, we can compare them. First, we must take the first item of the list to isolate the first line of input. Luckily, their is already a Haskell function, that was taught to us by Professor Johnson, that does just that. This is the head function. The head function take a parameter of any type of list and returns the first element or item in that list.
 
