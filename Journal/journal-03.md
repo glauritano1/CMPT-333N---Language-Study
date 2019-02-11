@@ -10,9 +10,9 @@ CMPT 333N
   * using the filter spell on the list [0..]
   * using a list comprehension
   
-1 a) 0:2:4:6:8:10:[]
-  b) tail (take 6 (filter even [0..]))
-  c) [x | x <- [1..], even n]
+1 a) 0:2:4:6:8:10:[]<br>
+  b) tail (take 6 (filter even [0..]))<br>
+  c) [x | x <- [1..], even n]<br>
   
 2. Conjure the list of the first 10 square numbers...
    * using only the (:) sigil, [], and number literals
