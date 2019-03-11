@@ -39,7 +39,7 @@ maximum' = foldl max 0
 
 - reverse' 
 
-reverse' = Foldl (:) []
+reverse' = Foldl (:) 
 
 
 
